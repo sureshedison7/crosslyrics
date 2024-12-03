@@ -11,4 +11,4 @@ type LyricsProps = {
     );
   };
   
-  export default Lyrics;
+export default Lyrics;

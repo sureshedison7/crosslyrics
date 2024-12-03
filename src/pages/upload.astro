@@ -1,0 +1,17 @@
+---
+import Layout from "@layouts/Layout.astro";
+import Main from "@layouts/Main.astro";
+import Footer from "@components/Footer.astro";
+import Header from "@components/Header.astro";
+
+import MarkdownEditor from "@components/MarkdownEditor.astro"
+---
+
+<Layout title={"MDX Editor"}>
+  <Header/>
+  <Main pageTitle="MDX Editor" pageDesc="Live MDX editor and preview">
+    <h1>Markdown Editor</h1>
+    <MarkdownEditor />
+  </Main>
+  <Footer />
+</Layout>
