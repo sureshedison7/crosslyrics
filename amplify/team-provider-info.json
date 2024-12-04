@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-crosslyrics-dev-7da39-authRole",
+      "UnauthRoleArn": "arn:aws:iam::593793024094:role/amplify-crosslyrics-dev-7da39-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::593793024094:role/amplify-crosslyrics-dev-7da39-authRole",
+      "Region": "ap-south-1",
+      "DeploymentBucketName": "amplify-crosslyrics-dev-7da39-deployment",
+      "UnauthRoleName": "amplify-crosslyrics-dev-7da39-unauthRole",
+      "StackName": "amplify-crosslyrics-dev-7da39",
+      "StackId": "arn:aws:cloudformation:ap-south-1:593793024094:stack/amplify-crosslyrics-dev-7da39/ba1c3720-b26f-11ef-96a0-025aacfd9b29",
+      "AmplifyAppId": "dlvbtll9224mw"
+    },
+    "categories": {
+      "auth": {
+        "crosslyricsfb2bdb63": {}
+      }
+    }
+  }
+}

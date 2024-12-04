@@ -1,0 +1,26 @@
+---
+import Layout from "@layouts/Layout.astro";
+import Main from "@layouts/Main.astro";
+import Footer from "@components/Footer.astro";
+import Header from "@components/Header.astro";
+
+
+import AuthWrapper from "@components/AuthWrapper";
+
+---
+
+<Layout title={"Login"}>
+  <Header/>
+  <Main pageTitle="Login" pageDesc="Live MDX editor and preview">
+    <h1>Login</h1>
+
+    <AuthWrapper client:load>
+        <div>
+          <h2>Protected Content</h2>
+          <p>This content is only visible to authenticated users.</p>
+        </div>
+      </AuthWrapper>
+    
+  </Main>
+  <Footer />
+</Layout>

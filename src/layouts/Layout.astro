@@ -3,6 +3,10 @@ import { LOCALE, SITE } from "@config";
 import "@styles/base.css";
 import { ViewTransitions } from "astro:transitions";
 
+import { Amplify } from 'aws-amplify';
+import config from '../amplifyconfiguration.json';
+Amplify.configure(config);
+
 const googleSiteVerification = import.meta.env.PUBLIC_GOOGLE_SITE_VERIFICATION;
 
 export interface Props {
