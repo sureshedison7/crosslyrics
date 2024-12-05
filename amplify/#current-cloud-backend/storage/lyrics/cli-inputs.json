@@ -1,0 +1,14 @@
+{
+  "resourceName": "lyrics",
+  "policyUUID": "4af0d1d6",
+  "bucketName": "crosslyricsc8d1e660c7c14a9da4c9851a50ab0083",
+  "storageAccess": "auth",
+  "guestAccess": [],
+  "authAccess": [
+    "CREATE_AND_UPDATE",
+    "READ",
+    "DELETE"
+  ],
+  "triggerFunction": "NONE",
+  "groupAccess": {}
+}
