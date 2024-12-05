@@ -14,9 +14,27 @@
     "categories": {
       "auth": {
         "crosslyricsfb2bdb63": {}
+      }
+    }
+  },
+  "main": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-crosslyrics-main-56dc4-authRole",
+      "UnauthRoleArn": "arn:aws:iam::593793024094:role/amplify-crosslyrics-main-56dc4-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::593793024094:role/amplify-crosslyrics-main-56dc4-authRole",
+      "Region": "ap-south-1",
+      "DeploymentBucketName": "amplify-crosslyrics-main-56dc4-deployment",
+      "UnauthRoleName": "amplify-crosslyrics-main-56dc4-unauthRole",
+      "StackName": "amplify-crosslyrics-main-56dc4",
+      "StackId": "arn:aws:cloudformation:ap-south-1:593793024094:stack/amplify-crosslyrics-main-56dc4/6bad4d60-b32b-11ef-ae44-0a05b93a22e5",
+      "AmplifyAppId": "d1loc4esd0tojb"
+    },
+    "categories": {
+      "auth": {
+        "crosslyricsfb2bdb63": {}
       },
       "storage": {
-        "lyrics": {}
+        "lyricslib": {}
       }
     }
   }

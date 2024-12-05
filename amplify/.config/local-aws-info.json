@@ -3,5 +3,10 @@
     "configLevel": "project",
     "useProfile": true,
     "profileName": "suresh-edison"
+  },
+  "main": {
+    "configLevel": "project",
+    "useProfile": true,
+    "profileName": "suresh-edison"
   }
 }

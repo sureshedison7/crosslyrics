@@ -1,75 +1,75 @@
 {
   "providers": {
     "awscloudformation": {
-      "AuthRoleName": "amplify-crosslyrics-dev-7da39-authRole",
-      "UnauthRoleArn": "arn:aws:iam::593793024094:role/amplify-crosslyrics-dev-7da39-unauthRole",
-      "AuthRoleArn": "arn:aws:iam::593793024094:role/amplify-crosslyrics-dev-7da39-authRole",
+      "AuthRoleName": "amplify-crosslyrics-main-56dc4-authRole",
+      "UnauthRoleArn": "arn:aws:iam::593793024094:role/amplify-crosslyrics-main-56dc4-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::593793024094:role/amplify-crosslyrics-main-56dc4-authRole",
       "Region": "ap-south-1",
-      "DeploymentBucketName": "amplify-crosslyrics-dev-7da39-deployment",
-      "UnauthRoleName": "amplify-crosslyrics-dev-7da39-unauthRole",
-      "StackName": "amplify-crosslyrics-dev-7da39",
-      "StackId": "arn:aws:cloudformation:ap-south-1:593793024094:stack/amplify-crosslyrics-dev-7da39/ba1c3720-b26f-11ef-96a0-025aacfd9b29",
-      "AmplifyAppId": "dlvbtll9224mw"
+      "DeploymentBucketName": "amplify-crosslyrics-main-56dc4-deployment",
+      "UnauthRoleName": "amplify-crosslyrics-main-56dc4-unauthRole",
+      "StackName": "amplify-crosslyrics-main-56dc4",
+      "StackId": "arn:aws:cloudformation:ap-south-1:593793024094:stack/amplify-crosslyrics-main-56dc4/6bad4d60-b32b-11ef-ae44-0a05b93a22e5",
+      "AmplifyAppId": "d1loc4esd0tojb"
     }
   },
   "auth": {
     "crosslyricsfb2bdb63": {
-      "service": "Cognito",
-      "providerPlugin": "awscloudformation",
-      "dependsOn": [],
       "customAuth": false,
+      "dependsOn": [],
       "frontendAuthConfig": {
-        "socialProviders": [],
-        "usernameAttributes": [
-          "EMAIL"
-        ],
-        "signupAttributes": [
-          "EMAIL"
+        "mfaConfiguration": "OFF",
+        "mfaTypes": [
+          "SMS"
         ],
         "passwordProtectionSettings": {
           "passwordPolicyMinLength": 8,
           "passwordPolicyCharacters": []
         },
-        "mfaConfiguration": "OFF",
-        "mfaTypes": [
-          "SMS"
+        "signupAttributes": [
+          "EMAIL"
+        ],
+        "socialProviders": [],
+        "usernameAttributes": [
+          "EMAIL"
         ],
         "verificationMechanisms": [
           "EMAIL"
         ]
       },
+      "providerPlugin": "awscloudformation",
+      "service": "Cognito",
       "providerMetadata": {
-        "s3TemplateURL": "https://s3.amazonaws.com/amplify-crosslyrics-dev-7da39-deployment/amplify-cfn-templates/auth/crosslyricsfb2bdb63-cloudformation-template.json",
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-crosslyrics-main-56dc4-deployment/amplify-cfn-templates/auth/crosslyricsfb2bdb63-cloudformation-template.json",
         "logicalId": "authcrosslyricsfb2bdb63"
       },
-      "lastPushTimeStamp": "2024-12-04T19:44:02.311Z",
+      "lastPushTimeStamp": "2024-12-05T17:11:29.449Z",
       "output": {
-        "UserPoolId": "ap-south-1_7E1OnnuH9",
-        "AppClientIDWeb": "4n4tp9llf4l7e52jff185d8oim",
-        "AppClientID": "2fa992ac5asmtbh00i79t3057t",
-        "IdentityPoolId": "ap-south-1:52e08ccf-8517-418a-8e5b-3682e858f5a4",
-        "UserPoolArn": "arn:aws:cognito-idp:ap-south-1:593793024094:userpool/ap-south-1_7E1OnnuH9",
-        "IdentityPoolName": "crosslyricsfb2bdb63_identitypool_fb2bdb63__dev",
+        "UserPoolId": "ap-south-1_9Oqf8HaQs",
+        "AppClientIDWeb": "6um43k4pegvg3sr7k2qrqafjsi",
+        "AppClientID": "5d5da449n9fqqsqdpbeqf0isfg",
+        "IdentityPoolId": "ap-south-1:65b2274d-0148-480d-a505-71abee3b1077",
+        "UserPoolArn": "arn:aws:cognito-idp:ap-south-1:593793024094:userpool/ap-south-1_9Oqf8HaQs",
+        "IdentityPoolName": "crosslyricsfb2bdb63_identitypool_fb2bdb63__main",
         "UserPoolName": "crosslyricsfb2bdb63_userpool_fb2bdb63"
       },
       "lastPushDirHash": "1wShBDgtd5L89sXKH3wF/BoCtRo="
     }
   },
   "storage": {
-    "lyrics": {
-      "service": "S3",
-      "providerPlugin": "awscloudformation",
+    "lyricslib": {
       "dependsOn": [],
-      "lastPushTimeStamp": "2024-12-04T19:44:02.947Z",
+      "providerPlugin": "awscloudformation",
+      "service": "S3",
+      "lastPushTimeStamp": "2024-12-05T17:11:29.449Z",
       "providerMetadata": {
-        "s3TemplateURL": "https://s3.amazonaws.com/amplify-crosslyrics-dev-7da39-deployment/amplify-cfn-templates/storage/cloudformation-template.json",
-        "logicalId": "storagelyrics"
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-crosslyrics-main-56dc4-deployment/amplify-cfn-templates/storage/cloudformation-template.json",
+        "logicalId": "storagelyricslib"
       },
       "output": {
-        "BucketName": "crosslyricsc8d1e660c7c14a9da4c9851a50ab00837da39-dev",
+        "BucketName": "crosslyricslibrary56dc4-main",
         "Region": "ap-south-1"
       },
-      "lastPushDirHash": "huPG3k+Sn54W+HKjzyVuItJz1BU="
+      "lastPushDirHash": "0gTxDgX4knSm1MGoFB6wJM4fyY4="
     }
   }
 }

@@ -28,7 +28,7 @@
     }
   },
   "storage": {
-    "lyrics": {
+    "lyricslib": {
       "dependsOn": [],
       "providerPlugin": "awscloudformation",
       "service": "S3"

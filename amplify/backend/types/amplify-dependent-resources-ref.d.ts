@@ -11,7 +11,7 @@ export type AmplifyDependentResourcesAttributes = {
     }
   },
   "storage": {
-    "lyrics": {
+    "lyricslib": {
       "BucketName": "string",
       "Region": "string"
     }

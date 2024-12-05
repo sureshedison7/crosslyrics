@@ -3,10 +3,10 @@
 
 const awsmobile = {
     "aws_project_region": "ap-south-1",
-    "aws_cognito_identity_pool_id": "ap-south-1:52e08ccf-8517-418a-8e5b-3682e858f5a4",
+    "aws_cognito_identity_pool_id": "ap-south-1:65b2274d-0148-480d-a505-71abee3b1077",
     "aws_cognito_region": "ap-south-1",
-    "aws_user_pools_id": "ap-south-1_7E1OnnuH9",
-    "aws_user_pools_web_client_id": "4n4tp9llf4l7e52jff185d8oim",
+    "aws_user_pools_id": "ap-south-1_9Oqf8HaQs",
+    "aws_user_pools_web_client_id": "6um43k4pegvg3sr7k2qrqafjsi",
     "oauth": {},
     "aws_cognito_username_attributes": [
         "EMAIL"
@@ -26,7 +26,7 @@ const awsmobile = {
     "aws_cognito_verification_mechanisms": [
         "EMAIL"
     ],
-    "aws_user_files_s3_bucket": "crosslyricsc8d1e660c7c14a9da4c9851a50ab00837da39-dev",
+    "aws_user_files_s3_bucket": "crosslyricslibrary56dc4-main",
     "aws_user_files_s3_bucket_region": "ap-south-1"
 };
 
